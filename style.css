@@ -1,0 +1,101 @@
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #1E1E24;
+  text-align: center;
+  font-family: verdana;
+}
+
+
+h1 {
+color:rgb(255,206,60);
+background-color:rgb(12,0,64);
+text-align:center;
+font-family:timesnewroman;
+}
+
+h2 {
+color:rgb(191,189,75);
+text-align:center;
+font-family:timesnewroman;
+line-height:40px;
+border-style: solid 1px;
+}
+
+h5 {
+color:rgb(191,189,75);
+text-align:center;
+font-family:timesnewroman;
+}
+
+p {
+text-align:left;
+width:80%;
+color:rgb(229,227,91);
+}
+
+a {
+color:yellow;
+text-align:center;
+}
+
+img {
+    float: right;
+    margin: 0 0 10px 10px;
+}
+
+<h2> {
+	text-align:center;
+	width:80%;
+}
+
+ul {
+	text-align:left;
+}
+
+.menu {
+line-height:2px;
+font-size: 28px;
+color:yellow;
+margin:30px;
+}
+
+table, td {
+color:rgb(191,189,75);
+font-family:timesnewroman;
+border: solid 1px;
+}
+
+table {
+    border-collapse: collapse;
+	border-radius:30%;
+	width:100%;
+}
+
+th {
+	font-weight:bold;
+	font-family:Arial;
+	border:solid 1px;
+	height:40px;
+}
+
+.annotation {
+line-height:30px;
+border-padding:10px;
+
+}
+
+.mth {
+	height:30px;
+}
+
+.tablelesson {
+	width:96%;
+	margin-left:20px;
+}
+
+.topic {
+	width:200px;
+	height:30px;
+}
