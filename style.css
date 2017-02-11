@@ -21,6 +21,7 @@ text-align:center;
 font-family:timesnewroman;
 line-height:40px;
 border-style: solid 1px;
+width:80%;
 }
 
 h5 {
@@ -43,11 +44,6 @@ text-align:center;
 img {
     float: right;
     margin: 0 0 10px 10px;
-}
-
-<h2> {
-	text-align:center;
-	width:80%;
 }
 
 ul {
