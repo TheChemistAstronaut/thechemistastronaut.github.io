@@ -93,3 +93,11 @@ border-padding:10px;
 	width:200px;
 	height:30px;
 }
+
+.shortpadded {
+	width:300px;
+}
+
+.game {
+	text-align:center;
+}
