@@ -101,3 +101,16 @@ border-padding:10px;
 .game {
 	text-align:center;
 }
+
+.header {
+	font-weight:bold;
+}
+
+.changelog {
+	color:rgb(191,189,75);
+	text-align:center;
+	font-family:timesnewroman;
+	font-size:20;
+	margin:0 auto;
+	width:500px;
+}
