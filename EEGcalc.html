@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="EEGcalc.css">
+</head>
+<body>
+
+<div id="container">
+  <h1>10/20 EEG Electrode Position Calculator</h1>
+  <div id="calculator">
+
+
+    <form>
+      <p>Nasion to Inion Distance
+        <p>
+		   <input id="NasInDist" type="text" placeholder="Nasion-Inion Distance">
+		   
+	  <p>Ear to Ear distance
+        <p>
+		   <input id="NasInDist" type="text" placeholder="Ear-Ear Distance">
+
+
+
+    </form>
+    <button type="button" id="calculate">Calculate!</button>
+
+  </div>
+  <!--calculator end-->
+  <div id="Distances">
+  <p>
+  Fzp <span id="FzpElement"></span> cm from Nasion
+  <p>
+  Fz <span id="FzElement"></span> cm from Nasion
+  <p>
+  Cz <span id="CzElement"></span> cm from Nasion
+  <p>
+  Pz <span id="PzElement"></span> cm from Inion
+  <p>
+  Oz <span id="OzElement"></span> cm from Inion
+
+  </div>
+  <!--Distances end-->
+
+</div>
+<!--container end-->
+
+<script type="text/javascript" src="EEGcalc.js"></script>
+
+</body>
+</html>
