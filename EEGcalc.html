@@ -15,53 +15,112 @@
         <p>
 		   <input id="NasInDist" type="text" placeholder="Nasion-Inion Distance (cm)">
 		   
-	  <p>Ear to Ear distance (cm)
-        <p>
-		   <input id="EarEarDist" type="text" placeholder="Ear-Ear Distance (cm)">
-		   
-	  <p>Head Circumference (cm)
-        <p>
-		   <input id="HeadCirc" type="text" placeholder="Head Circumference (cm)">
 
 
 
     </form>
-    <button type="button" id="calculate">Calculate!</button>
+    <button type="button" id="MedialButton">Calculate</button>
 
   </div>
   <!--calculator end-->
   <div id="Distances">
   <p>
-  Fzp <span id="FzpElement"></span> cm from Nasion
+  <p>------<p>
+  Fzp <span id="FzpElement"></span> cm from Inion
   <p><p>
+  <p>------<p>
+  Fz <span id="FzElement"></span> cm from Inion
+  <p>------<p>
   
-  Fz <span id="FzElement"></span> cm from Nasion
-  <p><p>
-  
-  Cz <span id="CzElement"></span> cm from Nasion
+  Cz <span id="CzElement"></span> cm from Inion
   <p>
-  C3 and C4 each <span id="C3Element"></span> cm from Cz
-  <p><p>
+
+  <p>------<p>
   
   Pz <span id="PzElement"></span> cm from Inion
-  <p><p>
+  <p>------<p>
   
   Oz <span id="OzElement"></span> cm from Inion
   <p>
-  O1 and O2 each <span id="O1Element"></span> cm from Oz
-  <p><p><p><p>
-  Suggested Order of placement
-  <p>
-  1) Fpz, Fz, Cz, Pz, Oz
-  <p>
-  2) F3, F4 & O1, O2
-  <p>
-  3) 
-  </div>
-  <!--Distances end-->
 
+  <p><p>
+  -------------
+  <p><p>
+ 
+  </div>
+  <!--Medial electrode distances end-->
+  
+<!-- Calculator 2 (T Points + F7/F8) -->
+
+   <div id="calculator">
+
+    <form>
+      <p>After marking the medial points above, enter the Fpz-Oz circumference in the box below.
+        <p>
+		   <input id="FpzOzCirc" type="text" placeholder="Fpz-Oz circumference (cm)">
+		   
+
+
+
+    </form>
+	
+    <button type="button" id="CircumferenceButton">Calculate</button>
+
+  </div>
+  
+ <!-- END OF Calculator 2 (T Points + F7/F8) -->
+ 
+ <!-- Distances of T Points + F7/F8 -->
+<div id="Distances">
+  <p>
+  Going clockwise, starting from Oz, the points on the circumference are located as follows.
+  <p>
+  ------
+  <p>
+  O1 <span id="O1Element"></span> cm from Oz
+  <p>
+  ------
+  <p>
+  T5 <span id="T5Element"></span> cm from Oz
+  <p>
+  ------
+  <p>
+  T3 <span id="T3Element"></span> cm from Oz
+  <p>
+  ------
+  <p>
+  F7 <span id="F7Element"></span> cm from Oz
+  <p>
+  ------
+  <p>
+  F8 <span id="F8Element"></span> cm from Oz
+  <p>
+  ------
+  <p>
+  T4 <span id="T4Element"></span> cm from Oz
+  <p>
+  ------
+  <p>
+  T6 <span id="T6Element"></span> cm from Oz
+  <p>
+  ------
+  <p>
+  O2 <span id="O2Element"></span> cm from Oz
+  <p>
+ 
+
+  <p><p>
+  -------------
+  <p><p>
+ 
+  </div> 
+  
+  
+  
 </div>
 <!--container end-->
+
+
 
 <script type="text/javascript" src="EEGcalc.js"></script>
 
